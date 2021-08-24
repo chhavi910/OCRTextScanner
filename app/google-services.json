@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "574851762327",
+    "project_id": "ocr-text-scanner-9ccdd",
+    "storage_bucket": "ocr-text-scanner-9ccdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574851762327:android:7236dbfa80481464ce01d2",
+        "android_client_info": {
+          "package_name": "com.project.ocrtextscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574851762327-dif0rih8fnjlc6qaa9sv0qj3iujko38b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4GPXCJ0R531Cdm1hELw8wUSOaoHRWD7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574851762327-dif0rih8fnjlc6qaa9sv0qj3iujko38b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

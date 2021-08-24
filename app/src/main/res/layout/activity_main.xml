@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <Button
+            android:id="@+id/buttonGallery"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="64dp"
+            android:layout_toStartOf="@+id/buttonCapture"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_photo_24"
+            android:clickable="true" />
+
+        <Button
+            android:id="@+id/buttonFlash"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_toStartOf="@+id/buttonCapture"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_flash_off_24" />
+
+        <Button
+            android:id="@+id/buttonCapture"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight="2"
+            android:background="@drawable/ic_baseline_camera_24"
+            android:clickable="true" />
+
+        <Button
+            android:id="@+id/buttonRotate"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="52dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/buttonCapture"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_flip_camera_ios_24" />
+    </RelativeLayout>
+
+</LinearLayout>
